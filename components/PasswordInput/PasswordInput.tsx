@@ -42,6 +42,7 @@ export const PasswordInput = ({ generatedPassword }: IPasswordInput) => {
       color={isCopied ? "green" : "dark"}
       position="bottom"
       withArrow
+      events={{ hover: true, focus: true, touch: true }}
     >
       <Input
         radius="md"

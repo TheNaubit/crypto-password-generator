@@ -3,7 +3,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Demo
-You can try this online here: []()
+✅ You can try this online here: [https://passgenerator.nauverse.com/](https://passgenerator.nauverse.com/)
 
 ## Getting Started
 
