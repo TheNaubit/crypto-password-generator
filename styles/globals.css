@@ -1,26 +1,32 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+:root {
+  --color-dodger-blue: #4f4fff;
+  --color-royal-blue: #6849ee;
+  --color-black-pearl: #04102D;
+  --color-pure-white: #FFFFFF;
+  --color-east-bay: #3F4C71;
+  --color-bunting: #15244B;
+  --color-royal-blue-2: #2c49f0;
+  --color-dodger-blue-2: #3f5efb;
+  --color-radical-red: #FC466B;
+  --color-yellow: #F8FF00;
+  --color-shamrock: #3AD59F;
+  --color-downriver: #091641;
+  --color-azure-radiance: #157AF5;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.mantine-Slider-track::before {
+  background-color: var(--color-bunting);
 }
 
-* {
-  box-sizing: border-box;
+.mantine-Slider-mark {
+  display: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.mantine-Slider-markLabel {
+  color: var(--color-pure-white);
+  margin-top: 8px;
+}
+
+.mantine-Slider-thumb {
+  border-color: var(--color-pure-white);
 }
